@@ -26,6 +26,7 @@ const myapi=()=>{
         <div className="container">
             <h1 style={{background:color}}>About Component</h1>
             {/* <h3>state value is  {x.name}</h3> */}
+            <p>sample content</p>
             <h3>state value is  {count}</h3>
             <h3 className={st?"d-block":"d-none"}>state value is  {color}</h3>
 
