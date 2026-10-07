@@ -3,7 +3,7 @@ const counterreducer=(state=0, action)=>{
             case "in":
                 return state+1
             case "de":
-                return state-1
+                return state*2+15+78*2
             case "m":
                 return state*action.data
             default:
