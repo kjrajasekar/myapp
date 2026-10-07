@@ -1,4 +1,5 @@
 import { useReducer } from "react"
+import { Outlet,Link } from "react-router-dom"
 
 
 
@@ -28,6 +29,10 @@ const Myreducer=()=>{
         <button onClick={()=>dispatch({type:"in"})}>click me</button>
         <button onClick={()=>dispatch({type:"de"})}>click </button>
         <button onClick={()=>dispatch({type:"m", data:3})}>multi </button>
+
+        <Link to="comp1">Comp1</Link>
+        <Link to="comp2">Comp2</Link>
+        <Outlet />
         
         </div>
     )
